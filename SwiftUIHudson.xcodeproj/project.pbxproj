@@ -25,6 +25,10 @@
 		BFF5B4E32C1BA8E70078E960 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4E22C1BA8E70078E960 /* GroupView.swift */; };
 		BFF5B4E52C1BA9620078E960 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4E42C1BA9620078E960 /* ContainerView.swift */; };
 		BFF5B4E72C1BA9A10078E960 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4E62C1BA9A10078E960 /* PreviewView.swift */; };
+		BFF5B4EB2C1BB0240078E960 /* GradientChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4EA2C1BB0240078E960 /* GradientChallenge.swift */; };
+		BFF5B4ED2C1BB0650078E960 /* ScrollChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4EC2C1BB0650078E960 /* ScrollChallenge.swift */; };
+		BFF5B4EF2C1BB0900078E960 /* SuperpowerChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4EE2C1BB0900078E960 /* SuperpowerChallenge.swift */; };
+		BFF5B4F12C1BB0A90078E960 /* TabbingChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5B4F02C1BB0A90078E960 /* TabbingChallenge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,10 @@
 		BFF5B4E22C1BA8E70078E960 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		BFF5B4E42C1BA9620078E960 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		BFF5B4E62C1BA9A10078E960 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		BFF5B4EA2C1BB0240078E960 /* GradientChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientChallenge.swift; sourceTree = "<group>"; };
+		BFF5B4EC2C1BB0650078E960 /* ScrollChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollChallenge.swift; sourceTree = "<group>"; };
+		BFF5B4EE2C1BB0900078E960 /* SuperpowerChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperpowerChallenge.swift; sourceTree = "<group>"; };
+		BFF5B4F02C1BB0A90078E960 /* TabbingChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbingChallenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +136,7 @@
 				BFF5B4C62C1BA2D10078E960 /* MeshGradientView.swift */,
 				BFF5B4C82C1BA35E0078E960 /* TimeLineViewGradientView.swift */,
 				BFF5B4CA2C1BA4C90078E960 /* ColorBlendView.swift */,
+				BFF5B4EA2C1BB0240078E960 /* GradientChallenge.swift */,
 			);
 			path = "Colors, gradients, and animations";
 			sourceTree = "<group>";
@@ -138,6 +147,7 @@
 				BFF5B4D22C1BA6EA0078E960 /* OnScrollGeometryView.swift */,
 				BFF5B4D42C1BA72D0078E960 /* ScrollPositionView.swift */,
 				BFF5B4D62C1BA75E0078E960 /* ScrollPhaseView.swift */,
+				BFF5B4EC2C1BB0650078E960 /* ScrollChallenge.swift */,
 			);
 			path = "Upgrades to scroll views";
 			sourceTree = "<group>";
@@ -148,6 +158,7 @@
 				BFF5B4DB2C1BA8250078E960 /* SheetNavigationView.swift */,
 				BFF5B4DD2C1BA84F0078E960 /* TabNavigationView.swift */,
 				BFF5B4D92C1BA7C20078E960 /* IconNavigationView.swift */,
+				BFF5B4F02C1BB0A90078E960 /* TabbingChallenge.swift */,
 			);
 			path = "New approaches to navigation and tabbing";
 			sourceTree = "<group>";
@@ -159,6 +170,7 @@
 				BFF5B4E22C1BA8E70078E960 /* GroupView.swift */,
 				BFF5B4E42C1BA9620078E960 /* ContainerView.swift */,
 				BFF5B4E62C1BA9A10078E960 /* PreviewView.swift */,
+				BFF5B4EE2C1BB0900078E960 /* SuperpowerChallenge.swift */,
 			);
 			path = "New superpowers";
 			sourceTree = "<group>";
@@ -233,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF5B4EB2C1BB0240078E960 /* GradientChallenge.swift in Sources */,
 				BFF5B49F2C1B9FD10078E960 /* ContentView.swift in Sources */,
 				BFF5B4D32C1BA6EA0078E960 /* OnScrollGeometryView.swift in Sources */,
 				BFF5B4E32C1BA8E70078E960 /* GroupView.swift in Sources */,
@@ -243,7 +256,10 @@
 				BFF5B4C92C1BA35E0078E960 /* TimeLineViewGradientView.swift in Sources */,
 				BFF5B49D2C1B9FD10078E960 /* SwiftUIHudsonApp.swift in Sources */,
 				BFF5B4E72C1BA9A10078E960 /* PreviewView.swift in Sources */,
+				BFF5B4F12C1BB0A90078E960 /* TabbingChallenge.swift in Sources */,
 				BFF5B4DA2C1BA7C20078E960 /* IconNavigationView.swift in Sources */,
+				BFF5B4ED2C1BB0650078E960 /* ScrollChallenge.swift in Sources */,
+				BFF5B4EF2C1BB0900078E960 /* SuperpowerChallenge.swift in Sources */,
 				BFF5B4D72C1BA75E0078E960 /* ScrollPhaseView.swift in Sources */,
 				BFF5B4DE2C1BA84F0078E960 /* TabNavigationView.swift in Sources */,
 				BFF5B4C72C1BA2D10078E960 /* MeshGradientView.swift in Sources */,
